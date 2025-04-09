@@ -1,84 +1,10 @@
-[gd_resource type="Resource" load_steps=15 format=2]
+[gd_resource type="Resource" load_steps=9 format=2]
 
 [ext_resource path="res://course/Documentation.tres" type="Resource" id=1]
 [ext_resource path="res://resources/Lesson.gd" type="Script" id=2]
 [ext_resource path="res://resources/Practice.gd" type="Script" id=3]
 [ext_resource path="res://resources/QuizChoice.gd" type="Script" id=4]
 [ext_resource path="res://resources/ContentBlock.gd" type="Script" id=5]
-
-[sub_resource type="Resource" id=1]
-script = ExtResource( 5 )
-content_id = "res://course/lesson-2-your-first-error/content-96942.tres"
-title = ""
-type = 0
-text = "When you program, you are bound to run into errors. Tons of them.
-
-But you shouldn't worry! On the computer, [b]errors are a good thing[/b].
-
-You will encounter errors, and [i]that's okay[/i]: every programmer does. Especially professionals.
-
-At school, maybe you learned that mistakes are a bad thing. When you code something, it's not the case: [b]errors help you write correct programs[/b] because they show you what is wrong in your programs."
-visual_element_path = ""
-reverse_blocks = false
-has_separator = false
-
-[sub_resource type="Resource" id=2]
-script = ExtResource( 5 )
-content_id = "res://course/lesson-2-your-first-error/content-62278.tres"
-title = ""
-type = 0
-text = "A code error looks like this. It's a message that tells you some bit of your code doesn't work."
-visual_element_path = ""
-reverse_blocks = false
-has_separator = false
-
-[sub_resource type="Resource" id=3]
-script = ExtResource( 5 )
-content_id = "res://course/lesson-2-your-first-error/content-kGx0c7DD.tres"
-title = ""
-type = 0
-text = ""
-visual_element_path = "ErrorExample.tscn"
-reverse_blocks = false
-has_separator = false
-
-[sub_resource type="Resource" id=4]
-script = ExtResource( 5 )
-content_id = "res://course/lesson-2-your-first-error/content-0c7DDizK.tres"
-title = "Making errors friendlier"
-type = 0
-text = "Error messages can look a bit cryptic. This is because they're designed by programmers, for trained programmers.
-
-We added an error translator in this app that will help you get started.
-
-It shows you why an error happens and what the message means. It also gives you some tips on how to fix it."
-visual_element_path = ""
-reverse_blocks = false
-has_separator = false
-
-[sub_resource type="Resource" id=5]
-script = ExtResource( 5 )
-content_id = "res://course/lesson-2-your-first-error/content-KUdOCQiG.tres"
-title = ""
-type = 0
-text = ""
-visual_element_path = "ErrorTranslatorExample.tscn"
-reverse_blocks = false
-has_separator = false
-
-[sub_resource type="Resource" id=6]
-script = ExtResource( 5 )
-content_id = "res://course/lesson-2-your-first-error/content-UdOCQiGj.tres"
-title = ""
-type = 0
-text = "Error messages are designed on purpose by fellow programmers who came before you. They anticipated you might have specific issues and wanted to help you fix them.
-
-You shouldn't think of errors as failures. They are like mentors helping you from the past. Importantly, errors won't break your computer. At least not with GDScript because it's a pretty safe language.
-
-Ultimately, you want to fix all the errors in your program. Understanding what is causing the errors, with the help of error messages, is key to fixing them."
-visual_element_path = ""
-reverse_blocks = false
-has_separator = false
 
 [sub_resource type="Resource" id=7]
 script = ExtResource( 4 )
@@ -133,5 +59,5 @@ description = "There's an error in this code. We need you to fix it!"
 [resource]
 script = ExtResource( 2 )
 title = "Your First Error"
-content_blocks = [ SubResource( 1 ), SubResource( 2 ), SubResource( 3 ), SubResource( 4 ), SubResource( 5 ), SubResource( 6 ), SubResource( 7 ), SubResource( 8 ) ]
+content_blocks = [ SubResource( 7 ), SubResource( 8 ) ]
 practices = [ SubResource( 9 ) ]
